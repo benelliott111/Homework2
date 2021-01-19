@@ -1,0 +1,54 @@
+body {
+    background-image: url('https://image.freepik.com/free-vector/colorful-gradient-background-with-bokeh-effect_23-2148358216.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2{text-align: center;
+    font-size: xx-large;    
+    color: darkcyan;
+}
+
+.coloured{
+    border:2px transparent black;
+    background-color:gray;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 25%;
+    margin-bottom: 3%;
+    margin-right: 0.5%;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+}
+@media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+    }
+}
+
+.floatingMessage{
+    min-height: 20%;
+}
+
+.card-text{
+    color:white;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+p{
+    color:white;
+}
