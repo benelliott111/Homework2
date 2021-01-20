@@ -1,3 +1,4 @@
+/* sets global background image */
 body {
     background-image: url('https://image.freepik.com/free-vector/colorful-gradient-background-with-bokeh-effect_23-2148358216.jpg');
     background-repeat: no-repeat;
@@ -5,27 +6,32 @@ body {
     background-size: cover;
 }
 
+/* colours h2 tags */
 h2{text-align: center;
     font-size: xx-large;    
     color: darkcyan;
 }
 
+/* colours corresponding divs */
 .coloured{
     border:2px transparent black;
     background-color:gray;
 }
 
+/* wraps rows */
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* sets spacing for cards */
 .card{
     flex: 25%;
     margin-bottom: 3%;
     margin-right: 0.5%;
 }
 
+/* control card reflexiveness */
 @media screen and (max-width: 600px) {
     .row {
       flex-direction: column;
@@ -37,18 +43,24 @@ h2{text-align: center;
     }
 }
 
-.floatingMessage{
-    min-height: 20%;
-}
-
+/* sets card text color */
 .card-text{
     color:white;
 }
 
+/* sets 'Ben Elliott' to bold */
 .navbar-brand{
     font-weight: bold;
 }
 
+/* sets p tag color */
 p{
     color:white;
+}
+
+/*  styles footer*/
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding:10px
 }
